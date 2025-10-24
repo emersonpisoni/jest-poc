@@ -1,0 +1,23 @@
+{
+  "name": "jest-poc",
+  "version": "1.0.0",
+  "description": "Studies about jest and testing features",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonpisoni/jest-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emersonpisoni/jest-poc/issues"
+  },
+  "homepage": "https://github.com/emersonpisoni/jest-poc#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
