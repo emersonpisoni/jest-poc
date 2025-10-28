@@ -37,6 +37,8 @@ Studies about jest and testing features
 
 - run `npm run test` and you will see the results
 
+- install jest types `npm install --save-dev @types/jest`
+
 ## Problems
 
 Using node `v22.17.1`
@@ -52,3 +54,26 @@ When I've tried to handle this error with this solution: `extensionsToTreatAsEsm
 
 Put just `type: "module"` in `package.json` file did not work for me.
 Probably there is some another configuration that you don't need to install babel, maybe with `jest.config.js`.
+
+## Dones
+
+- Matchers
+  - toBe
+  - toEqual
+  - toMatch
+  - toBeNull
+  - toBeDefined
+  - toBeTruthy
+  - toBeFalsy
+  ...
+
+- Async test
+  - Promises
+  - async/await
+
+- Setup
+  - beforeEach
+  - beforeAll
+
+- Mock
+  - mocking a return value
