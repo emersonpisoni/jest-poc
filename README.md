@@ -39,7 +39,7 @@ Studies about jest and testing features
 
 ## Problems
 
-Using node v22.17.1
+Using node `v22.17.1`
 
 ![alt text](image.png)
 
