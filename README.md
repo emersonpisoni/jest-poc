@@ -77,3 +77,5 @@ Probably there is some another configuration that you don't need to install babe
 
 - Mock
   - mocking a return value
+  - mocking modules
+  - mocking implementation
