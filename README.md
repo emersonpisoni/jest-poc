@@ -55,6 +55,16 @@ When I've tried to handle this error with this solution: `extensionsToTreatAsEsm
 Put just `type: "module"` in `package.json` file did not work for me.
 Probably there is some another configuration that you don't need to install babel, maybe with `jest.config.js`.
 
+## Questions
+
+What's the difference between `mockImplementation` and `mockResolvedValue` and when to use each one?
+ - With `mockResolvedValue` you can define fixed values for a function that will always return that value.
+    - Use this one when you just want to return a specific value.
+ - With `mockImplementation` you can define the whole implementation of a function
+    - Use this one when your function depends from parameters to return different values, so you can implement different tests based on this parameters.
+
+    https://jestjs.io/docs/mock-functions#mock-implementations
+
 ## Dones
 
 - Matchers
